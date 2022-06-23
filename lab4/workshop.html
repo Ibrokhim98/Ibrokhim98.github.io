@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration</title>
+    <link rel="stylesheet" type="text/css" href="workshop.css" />
+</head>
+
+<body>
+    <header>
+        <span>Workshop Registration</span>
+        <select name="workshopselection">
+            <option selected>More Actions</option>
+            <option>some option</option>
+        </select>
+    </header>
+
+    <main>
+        <form action="#">
+            <div class="container">
+                <div class="left">
+                    <div><a href="#"> Register now while seats are available</a></div>
+                    <div class="container">
+                        <div class="left required">First Name</div>
+                        <div class="right">
+                            <input type="text" name="firstname" required />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left required">Last Name</div>
+                        <div class="right">
+                            <input type="text" name="lastname" required />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left required">Company/Instituition</div>
+                        <div class="right">
+                            <input type="text" name="company" required />
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left required">Address</div>
+                        <div class="right">
+                            <textarea id="address" name="address" cols="21" rows="6" required>
+                      </textarea>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left">City</div>
+                        <div class="right"><input type="text" name="city" /></div>
+                    </div>
+                    <div class="container">
+                        <div class="left">State/Province/Region</div>
+                        <div class="right">
+                            <select name="state">
+                                <option selected>-Select</option>
+                                <option>Iowa</option>
+                                <option>New York</option>
+                                <option>Forida</option>
+                                <option>Arizona</option>
+                                <option>California</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left">Country</div>
+                        <div class="right">
+                            <select name="country">
+                                <option selected>-Select</option>
+                                <option>Uzbekistan</option>
+                                <option>USA</option>
+                                <option>South Korea</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left required">Email</div>
+                        <div class="right"><input type="text" name="email" required /></div>
+                    </div>
+                    <div class="container">
+                        <div class="left required">Phone Number</div>
+                        <div class="right"><input type="text" name="phone" required /></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <br />
+                    <div class="container"><a href="#">Lunch</a></div>
+    
+                    <div class="container">
+                        <div class="left">Meal Preferences</div>
+                        <div class="right">
+                            <select name="country">
+                                <option selected>Vegetarian</option>
+                                <option>Not vegan</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left"><a href="#">Payment Details</a></div>
+                    </div>
+                    <div class="container">
+                        <div class="left">Payment Mode</div>
+                        <div class="right">
+                            <div><input type="radio" name="pay" /> Cash</div>
+                            <div><input type="radio" name="pay" /> Cheque</div>
+                            <div><input type="radio" name="pay" /> Demand Draft</div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="left">DD/Cheque No.</div>
+                        <div class="right"><input type="text" name="cheque" /></div>
+                    </div>
+                    <div class="container">
+                        <div class="left">Drawn on (Bank Name)</div>
+                        <div class="right"><input type="text" name="drawn" /></div>
+                    </div>
+                    <div class="container">
+                        <div class="left">Payable at</div>
+                        <div class="right"><input type="text" name="payable" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons-container">
+                <input type="submit" />
+                <input type="reset" />
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <a href="https://validator.w3.org/check?uri=https://Ibrokhim98.github.io/lab4/workshop.html">
+            <img class="checker-image" src="/assets/W3C_HTML5_checker.png" alt="html-checker"/>
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://Ibrokhim98.github.io/lab4/workshop.css">
+            <img class="checker-image" src="/assets/css_checker.png" alt="css-checker"/>
+        </a>
+    </footer>
+</body>
+
+</html>
