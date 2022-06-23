@@ -1,0 +1,57 @@
+#header-title {
+    font-family: Century, serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.title {
+    font-family: Century, serif;
+    font-size: 22px;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 8px;
+    vertical-align: middle;
+  }
+
+.grid-item {
+    padding: 0px 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+#logo {
+    float: left;
+    margin: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+#header-container {
+    padding: 12px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+header {
+    margin: 0px;
+}
+
+.button {
+    background-color: #FE5622;
+    margin-top: 2em;
+    margin-right: 1em;
+    float: right;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Times New Roman", serif;
+}
