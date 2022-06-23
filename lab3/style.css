@@ -15,7 +15,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 8px;
+    padding: 20px;
     vertical-align: middle;
   }
 
@@ -32,15 +32,9 @@
     height: 80px;
 }
 
-#header-container {
-    padding: 12px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-header {
+/* header {
     margin: 0px;
-}
+} */
 
 .button {
     background-color: #FE5622;
@@ -54,4 +48,9 @@ header {
     text-decoration: none;
     font-size: 20px;
     font-family: "Times New Roman", serif;
+}
+
+.checkerImageSize {
+    height: 40px;
+    width: 75px;
 }
